@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Lecture</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+<br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch Modal Window</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true" role="dialog">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Modal Window</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				content here......
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row justify-content-start">
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+	</div>
+	<div class="row justify-content-end">
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+	</div>
+	<div class="row justify-content-around">
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+	</div>
+	<div class="row justify-content-between">
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+		<div class="col-4" style="border: 1px solid #000000">
+			One of two columns
+		</div>
+	</div>
+	
+</div>
+
+
+<div class="dropdown">
+	<button class="btn btn-primary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Dropdown button
+	</button>
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		<a class="dropdown-item" href="#">Action</a>
+		<a class="dropdown-item" href="#">Another Action</a>
+		<a class="dropdown-item" href="#">Something here</a>
+		<a class="dropdown-item" href="#">Something else</a>
+	</div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">Navbar</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Another link</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<br><br><br><br><br><br><br><br>
+<form action="submit.php" method="POST">
+	<input type="text" name="username" class="form-control" placeholder="Username" required>
+	<input type="password" name="password" class="form-control" placeholder="Password" required>
+	<input type="text" name="name" class="form-control" placeholder="Name" required>
+	<input type="text" name="contact" class="form-control" placeholder="Contact" required>
+	<input type="text" name="rollno" class="form-control" placeholder="Roll No" required>
+	<input type="submit" name="submit" class="btn btn-primary" value="Submit">
+	<input type="reset" name="reset" class="btn btn-warning" value="Reset">
+</form>
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="bootstrap-4.0.0-dist/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.0.0-dist/popper.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
